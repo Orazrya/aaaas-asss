@@ -1,0 +1,28 @@
+
+body {
+  font-family: sans-serif;
+  text-transform: capitalize;
+  main {
+    .title-section {
+      text-align: center;
+    }
+    .inputs-container {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      input {
+        height: 30px;
+        border: 1px solid #e5c9c5;
+        text-transform: capitalize;
+      }
+      .btn-add-player {
+        height: 34px;
+        width: 120px;
+        text-transform: capitalize;
+        border: 1px solid #e5c9c5;
+        background: #e5c9c5;
+        cursor: pointer;
+      }
+    }
+  }
+}
